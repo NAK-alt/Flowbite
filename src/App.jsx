@@ -1,0 +1,25 @@
+import React from 'react'
+import NavBar from './Components/NavBar.Jsx'
+import Footer from './Components/Footer.Jsx'
+
+
+const App = () => {
+  return (
+    <>
+      <nav>
+      <NavBar></NavBar>
+      </nav>
+        
+        <main>
+
+        </main>
+
+        <footer>
+          <Footer></Footer>
+        </footer>
+        
+    </>
+  )
+}
+
+export default App
